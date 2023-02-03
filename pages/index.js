@@ -65,12 +65,6 @@ export default function Home({ subscription }) {
           src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"
           async
         />
-            <script>
-                  window.SnipcartSettings = {
-                    publicApiKey: "OWUzZjUxMTMtYzc5Ni00YzViLTk1OWYtZjE1NGY1OWFhM2JjNjM4MTEwMzM5NTA2OTcwNDI5",
-                    loadStrategy: "on-user-interaction",
-                  };
-            </script>
       </Head>
 
       <main className={styles.main}>
