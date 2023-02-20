@@ -77,14 +77,7 @@ export default function Home({ subscription }) {
         </div>
       </main>
 
-      <div
-        id="snipcart"
-        data-api-key={
-          process.env.NEXT_PUBLIC_SNIPCART_API_KEY ||
-          'OWUzZjUxMTMtYzc5Ni00YzViLTk1OWYtZjE1NGY1OWFhM2JjNjM4MTEwMzM5NTA2OTcwNDI5'
-        }
-        hidden
-      ></div>
+      <div id="snipcart" data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY ||'OWUzZjUxMTMtYzc5Ni00YzViLTk1OWYtZjE1NGY1OWFhM2JjNjM4MTEwMzM5NTA2OTcwNDI5'} hidden></div>
     </div>
   );
 }
