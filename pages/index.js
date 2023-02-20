@@ -68,7 +68,7 @@ export default function Home({ subscription }) {
       </Head>
 
       <main className={styles.main}>
-        <h1>Next.js and SnipCart Ecommerce</h1>
+        <h1>Next.js and SnipCart Ecommerce CIAO CIAO</h1>
 
         <div className={styles.grid}>
           {products.map((product, i) => (
